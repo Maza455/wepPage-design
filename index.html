@@ -21,14 +21,14 @@
  
         <div class="rightNav">
             <input type="text" name="search" id="search">
-            <button class="btn btn-sm">Search</button>
+            <button onclick="greet()" id="greet">Greet Me! </button>
         </div>
     </nav>
 
     <section class="firstsection">
         <div class="box-main">
-            <div class="firstHalf">
-                <h1 class="text-big" id="web">
+            <div class="firstHalf" id="web">
+                <h1 class="text-big">
                     <span><u>Web Technology</u></span>
                 </h1>
 
@@ -56,8 +56,8 @@
 
     <section class="secondsection">
         <div class="box-main">
-            <div class="secondHalf">
-                <h1 class="text-big" id="program">
+            <div class="secondHalf" id="program">
+                <h1 class="text-big" >
                     <span><u>C Programming</u></span>
                 </h1>
                 <p class="text-small">
@@ -107,14 +107,33 @@
         </div>
     </section>
 
-    <!-- Start Footer -->
-    <footer class="background">
-        <p class="text-footer">
-            Copyright ©-All rights are reserved 
-        </p>
+            <!-- Start Footer -->
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="logo">
+                            Zukisa
+                        </div>
+                        <!-- social links -->
+                                    <div class="social-links">
+                                        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                                        <a href=""><i class="fa fa-instagram"></i></a>
+                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                    </div>
+                </div>
 
+            </footer>
+            <!-- End Footer -->
 
-    </footer>
+            <!-- Start CopyRight -->
+            <section class="copyright">
+                <div class="container">
+                    <p>&copy; 2020 copyright all right reserved</p>
+                </div>
+            </section>
+            <!-- End CopyRight -->
+    <script src="./script.js"></script>
 </body>
 
 </html>
